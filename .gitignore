@@ -1,0 +1,8 @@
+.DS_Store
+.bundle/ruby
+.jekyll-cache
+.sass-cache
+Gemfile.lock
+TODO
+_site
+_drafts/*

@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Static Starter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* I took a trade-off here to work on GitHub Pages out of the box when
+         there's a /repo/ path prefix. Adjust as needed. Good luck! */
+      @import url("./assets/style.css?{{site.time | date: '%s'}}");
+    </style>
+  </head>
+  <body>
+    <article>{{ content }}</article>
+  </body>
+</html>
